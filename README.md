@@ -17,6 +17,6 @@ You will be retrieving cart item details from the following API link:
 - **Checkout Button**: A "Checkout" button to proceed with the purchase.
 
 ## Installation:
-1. Clone the repository:
+1. Clone the repository
 2. Open in your code editor
 3. Run with live server  
