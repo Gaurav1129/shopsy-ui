@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmeto Shopsy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="/images/logo2.png" alt="Marmeto Logo" class="logo-img">
+                <span class="logo-mart" style="position: relative; top: -5px;">Marmeto</span>
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Home</a></li>
+                    <li><a href="/shop" class="nav-link">Shop</a></li>
+                    <li><a href="/about" class="nav-link">About</a></li>
+                    <li><a href="/contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <button class="icon-btn"><img src="/images/search.png" alt="search"></button>
+                <button class="icon-btn"><img src="/images/like.png" alt="heart"></button>
+                <button class="icon-btn"><img src="/images/cart.png" alt="cart"></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <img src="/images/logo.png" alt="logo">
+            <h1>Cart</h1>
+            <div class="breadcrumb">
+                <a href="/">Home</a>
+                <span><img src="images/arrow.png" alt="arrow" class="arrow-sign"></span>
+                <span>Cart</span>
+            </div>
+        </div>
+    </section>
+
+    <main class="cart-section">
+        <div class="container cart-container">
+            <div class="cart-items">
+                <div class="cart-header">
+                    <div class="product-col">Product</div>
+                    <div class="price-col">Price</div>
+                    <div class="quantity-col">Quantity</div>
+                    <div class="subtotal-col">Subtotal</div>
+                </div>
+                <div class="cart-item">
+                    <div class="product-col">
+                        <img src="/images/sofa.png" alt="Asgaard sofa" class="product-img">
+                        <span class="product-name">Asgaard sofa</span>
+                    </div>
+                    <div class="price-col">Rs. 250,000.00</div>
+                    <div class="quantity-col">
+                        <input type="number" value="1" min="1" class="quantity-input">
+                    </div>
+                    <div class="subtotal-col">
+                        <span>Rs. 250,000.00</span>
+                        <button class="remove-btn"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-totals">
+                <h2>Cart Totals</h2>
+                <div class="totals-row">
+                    <span>Subtotal</span>
+                    <span>Rs. 250,000.00</span>
+                </div>
+                <div class="totals-row">
+                    <span>Total</span>
+                    <span class="total-amount">Rs. 250,000.00</span>
+                </div>
+                <button class="checkout-btn">Check Out</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="features">
+        <div class="container features-container">
+            <div class="feature">
+                <img src="/images/trophy.png" height="40%" width="30%" alt="trophy">
+                <h3>High Quality</h3>
+                <p>crafted from top materials</p>
+            </div>
+            <div class="feature">
+                <img src="/images/warranty.png" height="40%" width="30%" alt="warranty">
+                <h3>Warranty Protection</h3>
+                <p>Over 2 years</p>
+            </div>
+            <div class="feature">
+                <img src="/images/shipping.png" alt="shipping" height="40%" width="30%">
+                <h3>Free Shipping</h3>
+                <p>Order over 150 $</p>
+            </div>
+            <div class="feature">
+                <img src="/images/support.png" height="40%" width="30%" alt="support">
+                <h3>24 / 7 Support</h3>
+                <p>Dedicated support</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+
+</html>
