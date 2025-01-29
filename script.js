@@ -49,7 +49,7 @@ async function initializeCart() {
         // Fetch fresh data from API
         const response = await fetch(API_URL);
         const data = await response.json();
-        
+
         // Update cart state
         cartState = data;
         saveCartToLocalStorage();
@@ -183,7 +183,7 @@ function handleCheckout() {
         showError('Your cart is empty');
         return;
     }
-    
+
     // Add our checkout logic here
     console.log('Proceeding to checkout with items:', cartState.items);
     showModal({
